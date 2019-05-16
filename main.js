@@ -3,12 +3,12 @@ var entry = document.querySelector("#hiText");
 
 btn.addEventListener("click", function(){
 
-    entry.textContent = "Hellooooo motherfucker....";
+    entry.textContent = "How far na?";
 
-    let storyPara = document.createElement('p');
-    storyPara.textContent = "don't forgit to commit...."
+    let storyPara = document.querySelector("#btnClick");
+    storyPara.textContent = "don't forgit to commit..."
     storyPara.classList.add('story');
-    document.body.appendChild(storyPara);
+
 });
 
 entry.addEventListener("mouseover", function()
@@ -18,7 +18,7 @@ entry.addEventListener("mouseover", function()
 
 entry.addEventListener("mouseout", function()
 {
-    entry.textContent = "Thank you learner...!!!";
+    entry.textContent = "Thank you learner!!!";
 });
 
 
